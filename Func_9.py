@@ -1,15 +1,6 @@
-def spy_game(nums):
-  code = [0, 0, 7]
-  for num in nums:
-      if num == code[0]:
-          code.pop(0)
-      if not code:  
-          return True
-  return False
+import math
+def volume_of_sphere(radius):
+    return (4/3) * math.pi * (radius ** 3)
 
-line = input(str("Enter a list of numbers: "))
-line = line.split()
-num = []
-for i in range(len(line)):
-  num.append(int(line[i]))
-print(spy_game(num))
+rad = int(input("Enter the radius of the sphere: "))
+print("The volume of the sphere is:" + str(volume_of_sphere(rad)))
