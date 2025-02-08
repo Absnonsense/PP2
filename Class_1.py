@@ -1,3 +1,5 @@
+# Define a class which has at least two methods: getString: to get a string from console input printString: to print the string in upper case.
+
 class up:
   def __init__(self):
       self.input_string = "" 
