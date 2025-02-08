@@ -1,10 +1,15 @@
+#Write the definition of a Point class. Objects from this class should have a
+#a method show to display the coordinates of the point
+#a method move to change these coordinates
+#a method dist that computes the distance between 2 points
+
 import math
 class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y  
     def show(self):
-        print(f"Coordinates of the point: ({self.x}, {self.y})")
+        print("Coordinates of the point " + str(self.x) + " " + str(self.y))
     def move(self, new_x, new_y):
         self.x = new_x
         self.y = new_y
