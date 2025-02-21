@@ -1,8 +1,11 @@
 from datetime import datetime
 
-date1 = datetime(2025, 2, 10, 14, 30, 0)
-date2 = datetime(2025, 2, 15, 18, 45, 30)
+date1_str = input("Enter first date and time (YYYY-MM-DD HH:MM:SS): ")
+date2_str = input("Enter second date and time (YYYY-MM-DD HH:MM:SS): ")
 
-difference = (date2 - date1).total_seconds()
+date1 = datetime.strptime(date1_str, "%Y-%m-%d %H:%M:%S")
+date2 = datetime.strptime(date2_str, "%Y-%m-%d %H:%M:%S")
+
+difference = abs((date2 - date1).total_seconds())
 
 print("Difference in seconds:", difference)
