@@ -39,7 +39,7 @@ while running:
         running = False
     snake.insert(0, new_head)
     if new_head == food:
-        score += 1
+        score +=1
         if score % 3 == 0:
             level += 1
             speed += 2
