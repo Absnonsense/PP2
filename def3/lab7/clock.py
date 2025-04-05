@@ -1,5 +1,4 @@
 import pygame
-import sys
 import time
 pygame.init()
 clock_img = pygame.image.load("image.jpeg") 
