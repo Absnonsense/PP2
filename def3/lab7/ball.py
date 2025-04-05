@@ -4,7 +4,7 @@ w, h = 500, 500
 screen = pygame.display.set_mode((w, h))
 pygame.display.set_caption("ball")
 r = 25
-c = (255, 0, 0)
+c = (255,0,0)
 s = 20
 x, y = w // 2, h // 2
 running = True
