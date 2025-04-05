@@ -35,7 +35,7 @@ def draw_shape(start, end, shape, color):
     top = min(y1, y2)
     if shape == "square":
         side = min(width, height)
-        pygame.draw.rect(screen, color, (left, top, side, side), 2)
+        pygame.draw.rect(screen, color, (left, top, width, height), 2)
     elif shape == "right_triangle":
         pygame.draw.polygon(screen, color, [(x1, y1), (x2, y2), (x1, y2)], 2)
     elif shape == "equilateral_triangle":
