@@ -7,7 +7,7 @@ clock = pygame.time.Clock()
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 colors = [BLACK, (255,0,0), (0,255,0), (0,0,255), (255,255,0)]
-color_idx = 0
+color_idx =0
 brush_color = colors[color_idx]
 canvas = pygame.Surface((w, h))
 canvas.fill(WHITE)
