@@ -44,7 +44,7 @@ def draw_shape(start, end, shape, color):
         pygame.draw.polygon(screen, color, [
             (x1, y1),
             (x1 + side, y1),
-            (x1 + side / 2, y1 - height_eq)
+            (x1 + side / 2, y1 + height_eq)
         ], 2)
     elif shape == "rhombus":
         cx = (x1 + x2) // 2
