@@ -10,7 +10,7 @@ drawing = False
 start_pos = None
 shape_type = "square"
 current_color = BLACK
-font = pygame.font.SysFont(None, 24)
+font = pygame.font.SysFont("Arial", 24)
 colors = [
     (255, 0, 0),  
     (0, 255, 0),   
