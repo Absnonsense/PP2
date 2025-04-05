@@ -17,11 +17,11 @@ def stop_music():
     print("Music stopped.")
 def next_track():
     global current
-    current = current + 1
+    current = current +1
     play_music()
 def previous_track():
     global current
-    current = current - 1
+    current = current -1
     play_music()
 running = True
 pygame.mixer.music.load(pl[current])
