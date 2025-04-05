@@ -2,7 +2,7 @@ import pygame
 pygame.init()
 w, h = 800, 600
 screen = pygame.display.set_mode((w, h))
-pygame.display.set_caption("Paint Shapes with Color")
+pygame.display.set_caption("Color")
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 screen.fill(WHITE)
